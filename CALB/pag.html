@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 18px;
+            max-width: 80%;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .imagen-izquierda {
+	    position: absolute;
+            top: 90px;
+            left: 0px;
+            width: 100px; /* Ajusta el tamaño de la imagen */
+            height: auto;*/
+        }
+        .boton {
+            background-color:purple ;
+            color: black;
+            border: none;
+            padding: 15px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 30px;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        .imagen-centro {
+            max-width: 60%;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>FELICES 20 MI AMOR!!</h1>
+
+    <br><br><br>
+
+    <p>En este día tan especial celebrando un añito más de vida, quiero que sepas lo mucho que te adoro, lo mucho que me llena verte feliz. Sé que es algo que añoras, que quizá son los pequeños detalles de la vida que le quedan a uno para siempre. Quiero que lo disfrutes un montón, quiero verte sonreír hasta el cansancio y disfrutar cada segundo.  
+    
+    Recuerda que la vida no se trata de estrés, ni cosas malas; se trata de navegar entre todas las dificultades que aparecen en el camino y siempre superarlas. Eres una mujer con un gran valor, que si te propones todo lo cumples y sé que serás grande. Tus pensamientos cada vez se acomodan más para ir centrada hacia tus metas y espero llegar a ver esa mujer gigante y próspera.  
+  
+    Pero bueno, sin más...
+    <br><br>
+    FELIZ CUMPLEAÑOS MI VIDA......</b></p>
+
+    <img src="C:\Users\ingau\OneDrive\ING-CONTABILIDAD\Escritorio\Nueva carpeta\feliz-cumpleanos-sin-fondo-11549782934tuoayrvxyd-removebg-preview.png" class="imagen-izquierda"       alt="Imagen pequeña">
+
+    <br><br><br>
+ 
+    <button class="boton" onclick="mostrarSorpresa()">Presiona aquí</button>
+
+    <script>
+        function mostrarSorpresa() {
+            document.body.innerHTML = `
+                <h1>UNO DE TUS SUEÑOS TE ESPERA</h1>
+                <br><br><br>
+                <img src="imagen2.jpg" class="imagen-centro" alt="Sorpresa">
+            `;
+        }
+    </script>
+
+</body>
+</html>
